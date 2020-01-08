@@ -29,6 +29,7 @@ end
 def update_counting_hash(hash, key)
   {:hash => key}
 end
+
 if update_counting_hash["top hat"]
   update_counting_hash["top hat"] += 1
 else
