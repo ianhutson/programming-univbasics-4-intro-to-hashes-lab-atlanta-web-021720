@@ -27,11 +27,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  {"stuff" => 1}
-end
-
-if update_counting_hash["top hat"]
-  update_counting_hash["top hat"] += 1
-else
-  update_counting_hash["top hat"] = 1
+if hash[key]
+else hash[key]+=1 : hash[key] = 1 
+  return hash
 end
