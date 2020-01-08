@@ -27,7 +27,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  {:hash => key}
+  {"stuff" => 1}
 end
 
 if update_counting_hash["top hat"]
